@@ -1,1 +1,23 @@
 
+div.nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+  gap: 10px;
+  background-color: #0a58ca;
+}
+
+div.navItem {
+  display: flex;
+  justify-content: center;
+}
+
+h3.navTitle {
+  color: white;
+}
+
+h5.resultsTitle {
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}

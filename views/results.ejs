@@ -3,8 +3,9 @@
   <%- include('partials/head') %>
   <body>
     <%- include('partials/nav') %>
+    <h5 class="resultsTitle">Resultados para la búsqueda "<%= search %>"</h5>
     <div class="accordion" id="accordionExample">
-      <% for (const item of glosario) { %>
+      <% for (const item of results) { %>
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingTwo">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#<%= item.id %>" aria-expanded="false" aria-controls="collapseTwo">
