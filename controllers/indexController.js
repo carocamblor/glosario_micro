@@ -5,7 +5,7 @@ var indexController = {
         res.render('index', {glosario})
     },
     results: (req, res) => {
-        let results = glosario.filter((item) => item.title.toLowerCase().includes(req.query.search.toLowerCase()))
+        let results = glosario.filter((item) => item.search.toLowerCase().includes(req.query.search.toLowerCase()))
         res.render('results', {results, search: req.query.search})
     },
 }
