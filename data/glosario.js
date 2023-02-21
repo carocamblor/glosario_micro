@@ -1,7 +1,7 @@
 let glosario = [
     {
         title: "Agente",
-        definition: "Una persona que actúa en nombre de otro individuo (un principal). El problema agente-principal surge cuando hay un conflicto de intereses entre un principal y un agente. Esto puede llevar a que el agente tome acciones que son óptimas para sí mismo, aunque no sean óptimas para el principal.",
+        definition: "Una persona que actúa en nombre de otro individuo (un principal). El problema agente-principal surge cuando hay un conflicto de intereses entre un principal y un agente. Esto puede llevar a que el agente tome acciones que son óptimas para sí mismo, pero no para el principal.",
         letter: "A",
         id: 1,
         textid: "agente",
@@ -9,7 +9,7 @@ let glosario = [
     },
     {
         title: "Aversión al riesgo",
-        definition: "Para un individuo averso al riesgo, el valor de una lotería es menor al valor esperado de esa lotería.",
+        definition: "Para un individuo averso al riesgo, el valor de una lotería (o proyecto de riesgo) es menor al valor esperado de esa lotería (o proyecto de riesgo).",
         letter: "A",
         id: 2,
         textid: "aversionalriesgo",
@@ -17,7 +17,7 @@ let glosario = [
     },
     {
         title: "Beneficio contable",
-        definition: "El beneficio que figura en los estados contables de una empresa. Se calcula como ingresos totales menos costos explícitos. Dado que no tiene en cuenta los costos implícitos, es posible que no coincida con el beneficio económico.",
+        definition: "El beneficio que figura en los estados contables de una empresa. Beneficio contable = Ingresos totales - Costos explícitos. Dado que no tiene en cuenta los costos implícitos, es posible que no coincida con el beneficio económico.",
         letter: "B",
         id: 3,
         textid: "beneficiocontable",
@@ -25,7 +25,7 @@ let glosario = [
     },
     {
         title: "Beneficio económico",
-        definition: "La diferencia entre los ingresos y todos los costos económicos (explícitos e implícitos), incluidos los costos de oportunidad.",
+        definition: "La diferencia entre los ingresos y todos los costos económicos (explícitos e implícitos), incluidos los costos de oportunidad. Beneficio económico = Ingresos totales - Costos explícitos e implícitos.",
         letter: "B",
         id: 4,
         textid: "beneficioeconomico",
@@ -33,7 +33,7 @@ let glosario = [
     },
     {
         title: "Beneficio económico extraordinario",
-        definition: "Cuando el beneficio económico es mayo a cero. Esto significa que el beneficio contable supera los costos de oportunidad.",
+        definition: "Cuando el beneficio económico es mayor a cero. Esto significa que el beneficio contable supera los costos de oportunidad.",
         letter: "B",
         id: 5,
         textid: "beneficioeconomicoextraordinario",
@@ -57,7 +57,7 @@ let glosario = [
     },
     {
         title: "Beneficio marginal",
-        definition: "El beneficio adicional que se obtiene al producir y vender una unidad adicional. Beneficio Marginal = MR - MC",
+        definition: "El beneficio adicional que se obtiene al producir y vender una unidad adicional. Beneficio Marginal = MR - MC.",
         letter: "B",
         id: 8,
         textid: "beneficiomarginal",
@@ -73,7 +73,7 @@ let glosario = [
     },
     {
         title: "Bienes complementarios",
-        definition: "Bienes que se suelen consumir en conjunto. Cuando sube el precio de un bien, la demanda de sus bienes complementarios disminuye. (Por eso, la elasticidad precio cruzada de los bienes complementarios es negativa.) Por ejemplo, los hoteles y los pasajes de avión. Si suben los precios de los pasajes de avión, disminuirá la demanda de habitaciones de hotel (y viceversa).",
+        definition: "Bienes que se suelen consumir en conjunto. Cuando sube el precio de un bien, la demanda de sus bienes complementarios disminuye. (Por eso, la elasticidad precio cruzada de los bienes complementarios es negativa.) Un ejemplo son los hoteles y los pasajes de avión. Si suben los precios de los pasajes de avión, disminuirá la demanda de habitaciones de hotel (y viceversa).",
         letter: "B",
         id: 10,
         textid: "bienescomplementarios",
@@ -81,7 +81,7 @@ let glosario = [
     },
     {
         title: "Bienes inferiores",
-        definition: "Bienes cuya demanda disminuye a medida que aumenta el ingreso de los consumidores. Por ejemplo, el transporte público: si el ingreso de las personas aumenta, probablemente dejen de utilizar el transporte público y opten por métodos más cómodos de transporte.",
+        definition: "Bienes cuya demanda disminuye a medida que aumenta el ingreso de los consumidores. (Es decir, bienes cuya elasticidad ingreso es negativa.) Por ejemplo, el transporte público: si el ingreso de las personas aumenta, probablemente dejen de utilizar el transporte público y opten por métodos más cómodos de transporte.",
         letter: "B",
         id: 11,
         textid: "bienesinferiores",
@@ -89,7 +89,7 @@ let glosario = [
     },
     {
         title: "Bienes normales",
-        definition: "Bienes cuya demanda aumenta a medida que aumenta el ingreso de los consumidores.",
+        definition: "Bienes cuya demanda aumenta a medida que aumenta el ingreso de los consumidores. (Por ende, su elasticidad ingreso es positiva.)",
         letter: "B",
         id: 12,
         textid: "bienesnormales",
@@ -129,7 +129,7 @@ let glosario = [
     },
     {
         title: "Costo de oportunidad",
-        definition: "El costo de oportunidad es el beneficio al que renunciamos cuando tomamos una decisión en lugar de otra. Es decir, es el beneficio que podríamos obtener si eligiéramos nuestra segunda mejor alternativa. Por ejemplo, el costo de oportunidad de realizar un posgrado es el sueldo que uno podría ganar si eligiera trabajar en lugar de hacer un posgrado.",
+        definition: "El beneficio al que renunciamos cuando tomamos una decisión en lugar de otra. Es decir, el beneficio que podríamos obtener si eligiéramos la siguiente mejor alternativa. Por ejemplo, el costo de oportunidad de realizar un posgrado es el sueldo que uno podría ganar si eligiera trabajar en lugar de hacer un posgrado.",
         letter: "C",
         id: 17,
         textid: "costodeoportunidad",
@@ -345,7 +345,7 @@ let glosario = [
     },
     {
         title: "Equilibrio de largo plazo",
-        definition: "Cuando una empresa se encuentra en el equilibrio de largo plazo, el beneficio económico es cero (incluyendo el costo de oportunidad); y el precio que cobran las empresas es equivalente al costo medio. Entonces, ninguna empresa quiere abandonar o entrar a la industria.",
+        definition: "Cuando una empresa se encuentra en el equilibrio de largo plazo, el beneficio económico es cero (incluye el costo de oportunidad); y el precio que cobran las empresas es equivalente al costo medio. Entonces, ninguna empresa quiere abandonar o entrar a la industria.",
         letter: "E",
         id: 44,
         textid: "equilibriodelargoplazo",
@@ -369,7 +369,7 @@ let glosario = [
     },
     {
         title: "Equivalente cierto",
-        definition: "La cantidad de dinero que deja al individuo indiferente entre tomar o no cierto proyecto de riesgo.",
+        definition: "La cantidad de dinero que deja a cierto individuo indiferente entre tomar o no cierto proyecto de riesgo.",
         letter: "E",
         id: 47,
         textid: "equivalentecierto",
@@ -489,7 +489,7 @@ let glosario = [
     },
     {
         title: "Ley de los rendimientos marginales decrecientes",
-        definition: "Cuando se aumenta la cantidad de unidades producidas, eventualmente, la productividad marginal (es decir, el producto adicional que resulta de los insumos adicionales) decrece. Un ejemplo simple de esto es la cantidad de horas que un alumno le dedica a estudiar para un examen: eventualmente, llega a un punto en el cual estudiar una mayor cantidad de horas no hará que obtenga una nota más alta.",
+        definition: "Cuando se aumenta la cantidad de unidades producidas, eventualmente, la productividad marginal (es decir, el producto adicional que resulta de los insumos adicionales) decrece. Un ejemplo simple de esto es la cantidad de horas que un alumno estudia para un examen: cada hora adicional de estudio tiene un menor impacto en la nota.",
         letter: "L",
         id: 62,
         textid: "leydelosrendimientosmarginalesdecrecienes",
@@ -505,7 +505,7 @@ let glosario = [
     },
     {
         title: "Monopolio",
-        definition: "Una firma que se encuentra sola en su mercado. Es decir, una firma que es el único oferente de cierto bien o servicio. Los monopolios tienen poder de mercado porque producen un producto o servicio sin sustitutos cercanos, no tienen rivales y las barreras de entrada evitan que otras empresas entren a la industria.",
+        definition: "Una firma que se encuentra sola en el mercado. Es decir, una firma que es el único oferente de cierto bien o servicio. Los monopolios tienen poder de mercado porque producen un producto o servicio sin sustitutos cercanos, no tienen rivales y las barreras de entrada evitan que otras empresas entren a la industria.",
         letter: "M",
         id: 64,
         textid: "monopolio",
@@ -577,7 +577,7 @@ let glosario = [
     },
     {
         title: "Rendimientos constantes a escala",
-        definition: "Cuando el costo promedio es constante respecto a la cantidad de unidades producidas.",
+        definition: "Cuando el costo medio es constante respecto a la cantidad de unidades producidas.",
         letter: "R",
         id: 73,
         textid: "rendimientosconstantesaescala",
@@ -585,7 +585,7 @@ let glosario = [
     },
     {
         title: "Rendimientos crecientes a escala",
-        definition: "Cuando el costo promedio decrece a medida que aumenta la cantidad de unidades producidas.",
+        definition: "Cuando el costo medio decrece a medida que aumenta la cantidad de unidades producidas.",
         letter: "R",
         id: 74,
         textid: "rendimientoscrecientesaescala",
@@ -593,7 +593,7 @@ let glosario = [
     },
     {
         title: "Rendimientos decrecientes a escala",
-        definition: "Cuando el costo promedio aumenta a medida que aumenta la cantidad producida.",
+        definition: "Cuando el costo medio aumenta a medida que aumenta la cantidad producida.",
         letter: "R",
         id: 75,
         textid: "rendimientosdecrecientesaescala",
