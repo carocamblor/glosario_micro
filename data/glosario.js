@@ -265,7 +265,7 @@ let glosario = [
     },
     {
         title: "Decisión de extensión ",
-        definition: "La elección que realiza una empresa sobre el nivel de producción que debe llevar a cabo para maximizar sus beneficios.",
+        definition: "La elección que realiza una empresa sobre el nivel de producción que llevará a cabo.",
         letter: "D",
         id: 33,
         textid: "decisiondeextension",
