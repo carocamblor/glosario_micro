@@ -28,6 +28,10 @@ a.inicio {
   padding: 20px;
 }
 
+div.accordion-body {
+  background-color: #cfe2ff5e;
+}
+
 @media only screen and (min-width: 768px) {
 
   div.nav {
