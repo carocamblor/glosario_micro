@@ -1872,12 +1872,12 @@ let glosario = [
         area: "macro"
     },
     {
-        title: "Variable exogena",
+        title: "Variable exógena",
         definition: "Variable que un modelo considera dada; variable cuyo valor es independiente de la solución del modelo (cf. variable endógena).",
         letter: "V",
         id: 229,
         textid: "variableexogena",
-        search: "Variable exogena, variable exogena",
+        search: "Variable exogena, variable exógena",
         area: "macro"
     },
     {
